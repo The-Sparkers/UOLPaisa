@@ -20,9 +20,10 @@ namespace UOLPaisa.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.PageName = "Home Page";
+            ViewBag.Ahsan = "Ahsan";
             return View();
         }
-
         public IActionResult Privacy()
         {
             return View();

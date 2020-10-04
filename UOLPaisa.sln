@@ -9,21 +9,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServerSide", "ServerSide", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClientSide", "ClientSide", "{36FFF255-3A18-4463-8DD1-9A76569198B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessDomain", "BusinessDomain\BusinessDomain.csproj", "{F867DC3B-5E94-4865-80C9-B674A34F03E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessDomain", "BusinessDomain\BusinessDomain.csproj", "{F867DC3B-5E94-4865-80C9-B674A34F03E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationDomain", "ApplicationDomain\ApplicationDomain.csproj", "{D81DD246-C6A1-4A38-8085-23A248AEE585}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationDomain", "ApplicationDomain\ApplicationDomain.csproj", "{D81DD246-C6A1-4A38-8085-23A248AEE585}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataDomain", "DataDomain\DataDomain.csproj", "{987C3F99-C5DB-42AB-858E-340600C1569A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataDomain", "DataDomain\DataDomain.csproj", "{987C3F99-C5DB-42AB-858E-340600C1569A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validations", "Validations\Validations.csproj", "{1C54901E-B566-4434-8AA3-A0686865868B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Validations", "Validations\Validations.csproj", "{1C54901E-B566-4434-8AA3-A0686865868B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{E867DF00-DF52-45B5-A698-41EDFC050288}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{E867DF00-DF52-45B5-A698-41EDFC050288}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{BB73F318-FFF2-4559-B092-55B23FD6C408}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Services.csproj", "{BB73F318-FFF2-4559-B092-55B23FD6C408}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UOLPaisaWebApi", "UOLPaisaWebApi\UOLPaisaWebApi.csproj", "{1412D8E9-0675-494F-AB9A-625B90F56DC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UOLPaisaWebApi", "UOLPaisaWebApi\UOLPaisaWebApi.csproj", "{1412D8E9-0675-494F-AB9A-625B90F56DC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UOLPaisa", "UOLPaisa\UOLPaisa.csproj", "{6D12B13F-60F8-42C9-975C-DC2799D23840}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UOLPaisa", "UOLPaisa\UOLPaisa.csproj", "{6D12B13F-60F8-42C9-975C-DC2799D23840}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

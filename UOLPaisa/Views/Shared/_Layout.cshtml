@@ -9,13 +9,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="~/assets/images/favicon.png">
     <title>@ApplicationDomain.Info.ProductInfo.Name - @ViewData["Title"]</title>
     <!-- This page CSS -->
     <!-- This page CSS -->
-    <link href="assets/node_modules/morrisjs/morris.css" rel="stylesheet">
+    <link href="~/assets/node_modules/morrisjs/morris.css" rel="stylesheet">
     <!-- Custom CSS -->
-    <link href="dist/css/style.min.css" rel="stylesheet">
+    <link href="~/dist/css/style.min.css" rel="stylesheet">
     @RenderSection("PageStyles", false)
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -96,18 +96,18 @@
     <!-- ============================================================== -->
     <!-- All Jquery -->
     <!-- ============================================================== -->
-    <script src="assets/node_modules/jquery/jquery-3.2.1.min.js"></script>
+    <script src="~/assets/node_modules/jquery/jquery-3.2.1.min.js"></script>
     <!-- Bootstrap popper Core JavaScript -->
-    <script src="assets/node_modules/popper/popper.min.js"></script>
-    <script src="assets/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="~/assets/node_modules/popper/popper.min.js"></script>
+    <script src="~/assets/node_modules/bootstrap/~/dist/js/bootstrap.min.js"></script>
     <!-- slimscrollbar scrollbar JavaScript -->
-    <script src="dist/js/perfect-scrollbar.jquery.min.js"></script>
+    <script src="~/dist/js/perfect-scrollbar.jquery.min.js"></script>
     <!--Wave Effects -->
-    <script src="dist/js/waves.js"></script>
+    <script src="~/dist/js/waves.js"></script>
     <!--Menu sidebar -->
-    <script src="dist/js/sidebarmenu.js"></script>
+    <script src="~/dist/js/sidebarmenu.js"></script>
     <!--Custom JavaScript -->
-    <script src="dist/js/custom.min.js"></script>
+    <script src="~/dist/js/custom.min.js"></script>
     @RenderSection("PagePlugins",false)
     @RenderSection("Scripts", false)
 </body>
@@ -123,7 +123,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>@ViewData["Title"] - UOLPaisa</title>
-        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/lib/bootstrap/~/dist/css/bootstrap.min.css" />
         <link rel="stylesheet" href="~/css/site.css" />
     </head>
     <body>
@@ -160,8 +160,8 @@
                 &copy; 2020 - UOLPaisa - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
             </div>
         </footer>
-        <script src="~/lib/jquery/dist/jquery.min.js"></script>
-        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/lib/jquery/~/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/~/dist/js/bootstrap.bundle.min.js"></script>
         <script src="~/js/site.js" asp-append-version="true"></script>
         @RenderSection("Scripts", required: false)
     </body>
