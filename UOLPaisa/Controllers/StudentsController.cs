@@ -20,5 +20,10 @@ namespace UOLPaisa.Controllers
             ViewBag.PageName = "Add Student";
             return View();
         }
+        public IActionResult RemoveStudent()
+        {
+            ViewBag.PageName = "Remove Student";
+            return View();
+        }
     }
 }
